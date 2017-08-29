@@ -1,0 +1,11 @@
+{
+    "cannoteditpage": "Nu puteți edita această pagină.",
+    "createpage": "Creează pagină",
+    "editingpage": "Se editează această pagină  '{{$a}}'",
+    "newpagehdr": "Pagină nouă",
+    "newpagetitle": "Un nou titlu de pagină",
+    "nocontent": "Nu există conținut pentru această pagină",
+    "notingroup": "Ne pare rău, pentru a putea vizualiza acest forum trebuie să fiţi membru al unui grup.",
+    "page": "Pagina {{$a}}",
+    "pagename": "Nume pagină"
+}

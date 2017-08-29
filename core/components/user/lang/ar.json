@@ -1,0 +1,23 @@
+{
+    "address": "العنوان",
+    "city": "المدينة/البلدة",
+    "contact": "جهة اتصال",
+    "country": "الدولة",
+    "description": "نص المقدمة",
+    "details": "التفاصيل",
+    "editingteacher": "معلم",
+    "email": "بريد الإلكتروني",
+    "emailagain": "إعادة إدخال البريد الإلكتروني للتأكيد ",
+    "firstname": "الاسم الأول",
+    "interests": "اهتمامات",
+    "invaliduser": "المستخدم غير صحيح",
+    "lastname": "الاسم الأخير",
+    "manager": "مدير",
+    "newpicture": "صورة شخصية جديدة",
+    "phone1": "هاتف",
+    "phone2": "الجوال",
+    "roles": "أدوار",
+    "student": "طالب",
+    "viewprofile": "عرض الحساب",
+    "webpage": "صفحة إنترنت"
+}
