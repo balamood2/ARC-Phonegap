@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget id="com.arcdsc.nj" version="3.3.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>نور الجوادين</name>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns     = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0"  xmlns:android = "http://schemas.android.com/apk/res/android"  id        = "com.moodle.moodlemobile" versionCode = "20190" version   = "3.3.1" >
+    <name>Moodle Mobile</name>
+
     <description>
-         مدارس نور الجوادين
+        Moodle Mobile official app
     </description>
-    <author email="info@arcdsc.com" href="http://www.arcdsc.com">
-        ARC  team
+
+    <author href="http://moodle.com" email="mobile@moodle.com">
+        Moodle Mobile team
     </author>
-    <content src="index.html" />
+
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>3.3.1</string>
     </gap:config-file>
@@ -285,9 +287,9 @@
                   <string>public.audio</string>
                   <string>public.mp3</string>
                   <string>public.mpeg-4-audio</string>
-                  <string>com.apple.protected-​mpeg-4-audio</string>
+                  <string>com.apple.protected-?mpeg-4-audio</string>
                   <string>public.aifc-audio</string>
-                  <string>com.apple.coreaudio-​format</string>
+                  <string>com.apple.coreaudio-?format</string>
                   <string>public.aiff-audio</string>
                 </array>
             </dict>
@@ -389,14 +391,14 @@
                   <string>public.text</string>
                   <string>public.plain-text</string>
                   <string>public.utf8-plain-text</string>
-                  <string>public.utf16-external-plain-​text</string>
+                  <string>public.utf16-external-plain-?text</string>
                   <string>public.utf16-plain-text</string>
-                  <string>com.apple.traditional-mac-​plain-text</string>
+                  <string>com.apple.traditional-mac-?plain-text</string>
                   <string>public.source-code</string>
                   <string>public.c-source</string>
                   <string>public.objective-c-source</string>
                   <string>public.c-plus-plus-source</string>
-                  <string>public.objective-c-plus-​plus-source</string>
+                  <string>public.objective-c-plus-?plus-source</string>
                   <string>public.c-header</string>
                   <string>public.c-plus-plus-header</string>
                   <string>com.sun.java-source</string>
@@ -461,7 +463,7 @@
                 <string>Alternate</string>
                 <key>LSItemContentTypes</key>
                 <array>
-                  <string>com.microsoft.waveform-​audio</string>
+                  <string>com.microsoft.waveform-?audio</string>
                 </array>
             </dict>
             <dict>
@@ -492,7 +494,7 @@
                 <string>Alternate</string>
                 <key>LSItemContentTypes</key>
                 <array>
-                  <string>com.microsoft.powerpoint.​ppt</string>
+                  <string>com.microsoft.powerpoint.?ppt</string>
                   <string>org.openxmlformats.presentationml.presentation</string>
                 </array>
             </dict>
