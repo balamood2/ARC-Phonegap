@@ -14,8 +14,8 @@
 
 angular.module('mm.core')
 
-.constant('mmCoreLogEnabledDefault', true) // Default value for logEnabled.
-.constant('mmCoreLogEnabledConfigName', 'debug_enabled')
+.constant('mmCoreLogEnabledDefault', false) // Default value for logEnabled.
+    .constant('mmCoreLogEnabledConfigName', 'debug_enabled')
 
 /**
  * Provider to decorate angular's $log service.
@@ -46,7 +46,7 @@ angular.module('mm.core')
         var enhancedLogFn = function() {
             if (isEnabled) {
                 var args = Array.prototype.slice.call(arguments),
-                    now  = moment().format('l LTS');
+                    now = moment().format('l LTS');
 
                 args[0] = now + ' ' + className + ': ' + args[0]; // Prepend timestamp and className to the original message.
                 logFn.apply(null, args);
@@ -69,30 +69,30 @@ angular.module('mm.core')
         // Copy the original methods.
         var _$log = (function($log) {
             return {
-                log   : $log.log,
-                info  : $log.info,
-                warn  : $log.warn,
-                debug : $log.debug,
-                error : $log.error
+                log: $log.log,
+                info: $log.info,
+                warn: $log.warn,
+                debug: $log.debug,
+                error: $log.error
             };
         })($log);
 
         // Create the getInstance method so services/controllers can configure the className to be shown.
         var getInstance = function(className) {
             return {
-                log   : prepareLogFn(_$log.log, className),
-                info  : prepareLogFn(_$log.info, className),
-                warn  : prepareLogFn(_$log.warn, className),
-                debug : prepareLogFn(_$log.debug, className),
-                error : prepareLogFn(_$log.error, className)
+                log: prepareLogFn(_$log.log, className),
+                info: prepareLogFn(_$log.info, className),
+                warn: prepareLogFn(_$log.warn, className),
+                debug: prepareLogFn(_$log.debug, className),
+                error: prepareLogFn(_$log.error, className)
             };
         };
 
         // Decorate original $log functions too. This way if a service/controller uses $log without $log.getInstance,
         // it's going to prepend the date and 'Core'.
-        $log.log   = prepareLogFn($log.log);
-        $log.info  = prepareLogFn($log.info);
-        $log.warn  = prepareLogFn($log.warn);
+        $log.log = prepareLogFn($log.log);
+        $log.info = prepareLogFn($log.info);
+        $log.warn = prepareLogFn($log.warn);
         $log.debug = prepareLogFn($log.debug);
         $log.error = prepareLogFn($log.error);
         $log.getInstance = getInstance;

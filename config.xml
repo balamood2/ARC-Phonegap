@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns= "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0"  xmlns:android = "http://schemas.android.com/apk/res/android"  id        = "com.moodle.moodlemobile" versionCode = "20190" version   = "3.3.1" >
-    <name>Moodle Mobile</name>
-
-    <description>
-        Moodle Mobile official app
+<<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.arcdsc.nj" versionCode="20190" version="3.3.1">
+  <name>نور الجوادين</name>
+  <description>
+        تطبيق نور الجوادين
     </description>
-
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
-    </author>
+    <author href="http://arcdsc.com" email="info@arcdsc.com">
+      ARC DSC        
+  </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>3.3.1</string>
