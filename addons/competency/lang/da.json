@@ -1,0 +1,23 @@
+{
+    "activities": "Aktiviteter",
+    "coursecompetencies": "Kursuskompetencer",
+    "coursecompetencyratingsarenotpushedtouserplans": "Kompetencebedømmelser på dette kursus påvirker ikke læringsplaner.",
+    "coursecompetencyratingsarepushedtouserplans": "Kompetencebedømmelser på dette kursus opdateres straks i læringsplaner.",
+    "crossreferencedcompetencies": "Kryds-refererede kompetencer",
+    "duedate": "Forfaldsdato",
+    "errornocompetenciesfound": "Ingen kompetencer fundet",
+    "evidence": "Vidnesbyrd",
+    "learningplancompetencies": "Læringsplankompetencer",
+    "learningplans": "Læringsplaner",
+    "myplans": "Mine læringsplaner",
+    "noactivities": "Ingen aktiviteter",
+    "nocompetencies": "Ingen kompetencer",
+    "nocrossreferencedcompetencies": "Ingen andre kompetencer er krydsrefereret til denne kompetence.",
+    "noevidence": "Ingen vidnesbyrd",
+    "noplanswerecreated": "Der blev ikke oprettet nogen læringsplaner.",
+    "path": "Sti:",
+    "progress": "Progression",
+    "rating": "Bedømmelse",
+    "status": "Badgestatus",
+    "template": "Læringsplanskabelon"
+}
