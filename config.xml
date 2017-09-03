@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.arcdsc.nj" versionCode="20191" version="3.3.1.1">
+<widget xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:gap="http://phonegap.com/ns/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    id="com.arcdsc.nj" 
+    versionCode="20191" 
+    version="3.3.1.1">
   <name>نور الجوادين</name>
+
   <description>
         تطبيق نور الجوادين
     </description>
@@ -8,11 +14,9 @@
       ARC DSC        
   </author>
 
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.3.1</string>
-    </gap:config-file>
-
+   
    <content src="index.html" />
+
     <gap:platform name="android" />
 
     <access origin="*" />
@@ -51,8 +55,8 @@
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
     <preference name="iosPersistentFileLocation"        value="Compatibility" />
 
-    <icon src="icon.png" />
-    <gap:splash src="splash.png" />
+    <icon src="res/icon.png" />
+    <gap:splash src="res/splash.png" />
 
 <platform name="android">
 	<icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
@@ -136,7 +140,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="false" />
+         <application android:debuggable="true" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
