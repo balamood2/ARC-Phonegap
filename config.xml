@@ -12,7 +12,7 @@
         <string>3.3.1</string>
     </gap:config-file>
 
-   
+   <content src="index.html" />
     <gap:platform name="android" />
 
     <access origin="*" />
