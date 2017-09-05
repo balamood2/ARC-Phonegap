@@ -66356,11 +66356,11 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.nj",
-    "appname": "نور الجوادين",
-    "desktopappname": "نور الجوادين",
+    "app_id": "com.arcdsc.dh",
+    "appname": "دار الحكمة",
+    "desktopappname": "دار الحكمة",
     "versioncode": "20191",
-    "versionname": "3.3.1.1",
+    "versionname": "3.3.1",
     "cache_expiration_time": 300000000,
     "default_lang": "ar",
     "languages": { "ar": "عربي", "en": "English" },
@@ -66369,8 +66369,8 @@ angular.module('mm.core')
     // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://nj.arcdsc.com",
+    "siteurl": "https://dh.arcdsc.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://nj.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://dh.arcdsc.com/privacy.pdf"
 });
