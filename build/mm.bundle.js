@@ -66360,7 +66360,7 @@ angular.module('mm.core')
     "appname": "نور الجوادين",
     "desktopappname": "نور الجوادين",
     "versioncode": "201901",
-    "versionname": "3.3.1.1",
+    "versionname": "3.3.11",
     "cache_expiration_time": 300000000,
     "default_lang": "ar",
     "languages": { "ar": "عربي", "en": "English" },
