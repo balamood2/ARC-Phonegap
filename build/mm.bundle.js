@@ -66359,7 +66359,7 @@ angular.module('mm.core')
     "app_id": "com.arcdsc.nj",
     "appname": "نور الجوادين",
     "desktopappname": "نور الجوادين",
-    "versioncode": "2019",
+    "versioncode": "201901",
     "versionname": "3.3.1.1",
     "cache_expiration_time": 300000000,
     "default_lang": "ar",
