@@ -3,8 +3,8 @@
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="com.arcdsc.dh" 
-    versionCode="20191" 
-    version="3.3.1">
+    versionCode="20192" 
+    version="3.3.1.1">
   <name>دار الحكمة</name>
 
   <description>
