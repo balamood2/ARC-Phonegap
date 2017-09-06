@@ -66356,9 +66356,9 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.nj",
-    "appname": "نور الجوادين",
-    "desktopappname": "نور الجوادين",
+    "app_id": "com.arcdsc.ad",
+    "appname": "مدارس الادريسي",
+    "desktopappname": "مدارس الادريسي",
     "versioncode": "2019",
     "versionname": "3.3.1",
     "cache_expiration_time": 300000000,
@@ -66369,8 +66369,8 @@ angular.module('mm.core')
     // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://nj.arcdsc.com",
+    "siteurl": "https://ad.arcdsc.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://nj.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://ad.arcdsc.com/privacy.pdf"
 });
