@@ -2,20 +2,20 @@
 <widget xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
      xmlns:android="http://schemas.android.com/apk/res/android" 
-     id="com.arcdsc.nj" 
-     versionCode="201901" 
-     version="3.3.11">
+     id="com.arcdsc.ad" 
+     versionCode="2019" 
+     version="3.3.1">
 
-  <name>نور الجوادين</name>
+  <name>مدارس الادريسي</name>
   <description>
-        تطبيق نور الجوادين
+      مدارس الادريسي
     </description>
     <author href="http://arcdsc.com" email="info@arcdsc.com">
       ARC DSC        
   </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.3.11</string>
+        <string>3.3.1</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
@@ -142,7 +142,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
+         <application android:debuggable="false" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
