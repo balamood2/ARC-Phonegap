@@ -66356,7 +66356,7 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-          "app_id": "com.arcdsc.fr”,
+          "app_id": "com.arcdsc.fr",
           "appname": "مدارس الفرابي",
           "desktopappname": "مدارس الفرابي",
           "versioncode": "2019",
