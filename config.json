@@ -1,9 +1,9 @@
 {
     "app_id": "com.arcdsc.fr”,
-    "appname": “مدارس الفرابي”,
+    "appname": "مدارس الفرابي",
     "desktopappname": "مدارس الفرابي",
     "versioncode": "2019",
-    "versionname": “3.3.2”,
+    "versionname": "3.3.2",
     "cache_expiration_time": 3000000000,
     "default_lang": "ar",
     "languages": { "ar": "عربي", "en": "English" },
@@ -11,7 +11,7 @@
     "wsextservice": "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://alfarabi-schools.com/",
+    "siteurl": "https://alfarabi-schools.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
     "privacypolicy": "https://alfarabi-schools.com/privacy.pdf"

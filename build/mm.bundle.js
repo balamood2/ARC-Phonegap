@@ -66356,20 +66356,20 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.fr”,
-    "appname": “مدارس الفرابي”,
-    "desktopappname": "مدارس الفرابي",
-    "versioncode": "2019",
-    "versionname": “3.3.2",
-    "cache_expiration_time": 3000000000,
-    "default_lang": "ar",
-    "languages": { "ar": "عربي", "en": "English" },
-    "wsservice": "noodle_mobile_app",
-    "wsextservice": "local_mobile",
-    "gcmpn": "694767596569",
-    "customurlscheme": "moodlemobile",
-    "siteurl": "https://alfarabi-schools.com/",
-    "skipssoconfirmation": "false",
-    "forcedefaultlanguage": "false",
-    "privacypolicy": "https://alfarabi-schools.com/privacy.pdf"
+          "app_id": "com.arcdsc.fr”,
+          "appname": "مدارس الفرابي",
+          "desktopappname": "مدارس الفرابي",
+          "versioncode": "2019",
+          "versionname": "3.3.2",
+          "cache_expiration_time": 3000000000,
+          "default_lang": "ar",
+          "languages": { "ar": "عربي", "en": "English" },
+          "wsservice": "noodle_mobile_app",
+          "wsextservice": "local_mobile",
+          "gcmpn": "694767596569",
+          "customurlscheme": "moodlemobile",
+          "siteurl": "https://alfarabi-schools.com",
+          "skipssoconfirmation": "false",
+          "forcedefaultlanguage": "false",
+          "privacypolicy": "https://alfarabi-schools.com/privacy.pdf"
 });
