@@ -66364,7 +66364,7 @@ angular.module('mm.core')
           "cache_expiration_time": 3000000000,
           "default_lang": "ar",
           "languages": { "ar": "عربي", "en": "English" },
-          "wsservice": "noodle_mobile_app",
+          "wsservice": "moodle_mobile_app",
           "wsextservice": "local_mobile",
           "gcmpn": "694767596569",
           "customurlscheme": "moodlemobile",
