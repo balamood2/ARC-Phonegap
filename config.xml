@@ -1,19 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns= "http://www.w3.org/ns/widgets" 
-	xmlns:gap = "http://phonegap.com/ns/1.0"  
-	xmlns:android = "http://schemas.android.com/apk/res/android"  
-	id        = "com.arcdsc.ad" 
-	versionCode = "20190" 
-	version   = "3.3.1" >
-    <name>مدارس الادريسي</name>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.arcdsc.fr" version="3.3.2" versionCode="2019"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>مدارس الفرابي </name>
+    <description>         تطبيق مدارس الفرابي    </description>
+    <author email="info@arcdsc.com" href="http://arcdsc.com">      ARC DSC          </author>
 
-    <description>
-        مدارس الادريسي
-    </description>
 
-    <author href="http://arcdsc.com" email="info@arcdsc.com">
-        ARC DSC
-    </author>
 
     
    
