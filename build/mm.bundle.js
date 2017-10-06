@@ -66368,7 +66368,7 @@ angular.module('mm.core')
           "wsextservice": "local_mobile",
           "gcmpn": "694767596569",
           "customurlscheme": "moodlemobile",
-          "siteurl": "https://nd.arcdsc.com",
+          "siteurl": "https://sb.arcdsc.com",
           "skipssoconfirmation": "false",
           "forcedefaultlanguage": "false",
           "privacypolicy": "https://sb.arcdsc.com/privacy.pdf"
