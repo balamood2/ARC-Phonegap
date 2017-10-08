@@ -66356,21 +66356,20 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.dh",
-    "appname": "دار الحكمة",
-    "desktopappname": "دار الحكمة",
+    "app_id": "com.arcdsc.nd",
+    "appname": "مدارس الاندلس",
+    "desktopappname": "مدارس الاندلس",
     "versioncode": "2019",
-    "versionname": "3.3.1",
-    "cache_expiration_time": 300000000,
+    "versionname": "3.3.2",
+    "cache_expiration_time": 3000000000,
     "default_lang": "ar",
     "languages": { "ar": "عربي", "en": "English" },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://dh.arcdsc.com",
+    "siteurl": "https://nd.arcdsc.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://dh.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://nd.arcdsc.com/privacy.pdf"
 });
