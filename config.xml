@@ -2,13 +2,13 @@
 <widget xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.dh" 
-    versionCode="20192" 
-    version="3.3.1.1">
-  <name>دار الحكمة</name>
+    id="com.arcdsc.nd" 
+    versionCode="2019" 
+    version="3.3.2">
+  <name>مدارس الاندلس</name>
 
   <description>
-        تطبيق دار الحكمة
+        تطبيق مدارس الاندلس
     </description>
     <author href="http://arcdsc.com" email="info@arcdsc.com">
       ARC DSC        
