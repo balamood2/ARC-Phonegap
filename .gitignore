@@ -4,3 +4,7 @@ res/.DS_Store
 res/Icon
 res/screens/.DS_Store
 res/screens/Icon
+.DS_Store
+res/desktop.ini
+res/icons/android/desktop.ini
+res/screens/android/Icon
