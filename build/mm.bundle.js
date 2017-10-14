@@ -66356,21 +66356,21 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.dh",
-    "appname": "دار الحكمة",
-    "desktopappname": "دار الحكمة",
-    "versioncode": "20192",
-    "versionname": "3.3.1.1",
-    "cache_expiration_time": 300000000,
-    "default_lang": "ar",
-    "languages": { "ar": "عربي", "en": "English" },
-    "wsservice": "moodle_mobile_app",
-    "wsextservice": "local_mobile",
-    // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
-    "gcmpn": "694767596569",
-    "customurlscheme": "moodlemobile",
-    "siteurl": "https://dh.arcdsc.com",
-    "skipssoconfirmation": "false",
-    "forcedefaultlanguage": "false",
-    "privacypolicy": "https://dh.arcdsc.com/privacy.pdf"
+          "app_id": "com.arcdsc.ra",
+          "appname": "مدارس الرازي النموذجية",
+          "desktopappname": "مدارس الرازي النموذجية",
+          "versioncode": "2019",
+          "versionname": "3.3.2",
+          "cache_expiration_time": 3000000000,
+          "default_lang": "ar",
+          "languages": { "ar": "عربي", "en": "English" },
+          "wsservice": "moodle_mobile_app",
+          "wsextservice": "local_mobile",
+          // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
+          "gcmpn": "694767596569",
+          "customurlscheme": "moodlemobile",
+          "siteurl": "https://ra.arcdsc.com",
+          "skipssoconfirmation": "false",
+          "forcedefaultlanguage": "false",
+          "privacypolicy": "https://ra.arcdsc.com/privacy.pdf"
 });
