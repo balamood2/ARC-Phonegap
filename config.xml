@@ -3,8 +3,8 @@
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="com.arcdsc.um"
-    versionCode="2019"
-    version="3.3.2">
+    versionCode="20191"
+    version="3.3.2.1">
   <name>مدارس العمران الاهلية</name>
 
   <description>
