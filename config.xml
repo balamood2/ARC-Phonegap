@@ -17,7 +17,10 @@
    
    <content src="index.html" />
 
-    <gap:platform name="android" />
+    <gap:config-file parent="CFBundleShortVersionString" platform="ios">
+        <string>3.3.2</string>
+    </gap:config-file>
+    <gap:platform name="ios" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
