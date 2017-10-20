@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="com.arcdsc.ra"
     versionCode="2019"
-    version="3.3.2.1">
+    version="3.3.3">
   <name>مدارس الرازي النموذجية</name>
 
   <description>
