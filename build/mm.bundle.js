@@ -66360,7 +66360,7 @@ angular.module('mm.core')
           "appname": "مدارس الرازي النموذجية",
           "desktopappname": "مدارس الرازي النموذجية",
           "versioncode": "2019",
-          "versionname": "3.3.2",
+          "versionname": "3.3.2.1",
           "cache_expiration_time": 3000000000,
           "default_lang": "ar",
           "languages": { "ar": "عربي", "en": "English" },

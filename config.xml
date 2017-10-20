@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="com.arcdsc.ra"
     versionCode="2019"
-    version="3.3.2">
+    version="3.3.2.1">
   <name>مدارس الرازي النموذجية</name>
 
   <description>
@@ -18,7 +18,7 @@
    <content src="index.html" />
 
     <gap:config-file parent="CFBundleShortVersionString" platform="ios">
-        <string>3.3.2</string>
+        <string>3.3.2.1</string>
     </gap:config-file>
     <gap:platform name="ios" />
 
