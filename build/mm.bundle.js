@@ -66357,10 +66357,10 @@ angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
           "app_id": "com.arcdsc.fr",
-          "appname": "مدارس الفرابي",
-          "desktopappname": "مدارس الفرابي",
-          "versioncode": "2019",
-          "versionname": "3.3.2",
+          "appname": "مدارس الفارابي",
+          "desktopappname": "مدارس الفارابي",
+          "versioncode": "20191",
+          "versionname": "3.3.3",
           "cache_expiration_time": 3000000000,
           "default_lang": "ar",
           "languages": { "ar": "عربي", "en": "English" },
