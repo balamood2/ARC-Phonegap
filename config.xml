@@ -2,13 +2,13 @@
 <widget xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.za"
+    id="com.arcdsc.ir"
     versionCode="2019"
     version="3.3.2">
-  <name>مدارس الزهراء</name>
+  <name>مدارس الارتقاء</name>
 
   <description>
-        مدارس الزهراء
+        مدارس الارتقاء
     </description>
     <author href="http://arcdsc.com" email="info@arcdsc.com">
       ARC DSC        
