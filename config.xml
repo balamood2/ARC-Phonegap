@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.arcdsc.za" version="3.3.2" versionCode="2019" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name> مدارس الزهراء</name>
+<widget id="com.arcdsc.iuc6" version="3.3.2" versionCode="2019" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name> كلية العراق الجامعة</name>
     <description>
-         تطبيق مدارس الزهراء
+         تطبيق كلية العراق الجامعة
     </description>
     <author email="info@arcdsc.com" href="http://arcdsc.com">
       ARC DSC        
