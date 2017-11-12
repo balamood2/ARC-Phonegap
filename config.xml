@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.arcdsc.iuc6" version="3.3.2" versionCode="2019" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.arcdsc.iuc6" version="3.3.3" versionCode="2019" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name> كلية العراق الجامعة</name>
     <description>
          تطبيق كلية العراق الجامعة
@@ -8,7 +8,11 @@
       ARC DSC        
   </author>
     <gap:config-file parent="CFBundleShortVersionString" platform="ios">
-        <string>3.3.2</string>
+        <string>3.3.3</string>
+    </gap:config-file>
+
+    <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+        <string>For uploading receipt images</string>
     </gap:config-file>
     <gap:platform name="ios" />
     <access origin="*" />
