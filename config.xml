@@ -2,13 +2,13 @@
 <widget xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.ra"
+    id="com.arcdsc.ram"
     versionCode="2019"
     version="3.3.2">
-  <name>مدارس الرازي النموذجية</name>
+  <name>ثانوية الرازي الاهلية للبنين</name>
 
   <description>
-        مدارس الرازي النموذجية
+        ثانوية الرازي الاهلية للبنين
     </description>
     <author href="http://arcdsc.com" email="info@arcdsc.com">
       ARC DSC        
