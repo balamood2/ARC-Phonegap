@@ -66356,9 +66356,9 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.ram",
-    "appname": "ثانوية الرازي الاهلية للبنين",
-    "desktopappname": "ثانوية الرازي الاهلية للبنين",
+    "app_id": "com.arcdsc.raf",
+    "appname": "ثانوية الرازي الاهلية للبنات",
+    "desktopappname": "ثانوية الرازي الاهلية للبنات",
     "versioncode": "2019",
     "versionname": "3.3.2",
     "cache_expiration_time": 3000000000,
@@ -66369,8 +66369,8 @@ angular.module('mm.core')
     // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://ram.arcdsc.com",
+    "siteurl": "https://raf.arcdsc.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://ram.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://raf.arcdsc.com/privacy.pdf"
 });
