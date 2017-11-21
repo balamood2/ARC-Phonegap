@@ -66356,11 +66356,11 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-          "app_id": "com.arcdsc.ra",
-          "appname": "مدارس الرازي النموذجية",
-          "desktopappname": "مدارس الرازي النموذجية",
+          "app_id": "com.arcdsc.ram",
+          "appname": "ثانوية الرازي الاهلية للبنين",
+          "desktopappname": "ثانوية الرازي الاهلية للبنين",
           "versioncode": "2019",
-          "versionname": "3.3.3",
+          "versionname": "3.3.2",
           "cache_expiration_time": 3000000000,
           "default_lang": "ar",
           "languages": { "ar": "عربي", "en": "English" },
@@ -66369,8 +66369,8 @@ angular.module('mm.core')
           // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
           "gcmpn": "694767596569",
           "customurlscheme": "moodlemobile",
-          "siteurl": "https://ra.arcdsc.com",
+          "siteurl": "https://ram.arcdsc.com",
           "skipssoconfirmation": "false",
           "forcedefaultlanguage": "false",
-          "privacypolicy": "https://ra.arcdsc.com/privacy.pdf"
+          "privacypolicy": "https://ram.arcdsc.com/privacy.pdf"
 });
