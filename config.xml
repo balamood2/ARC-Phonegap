@@ -2,13 +2,13 @@
 <widget xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.ra"
+    id="com.arcdsc.raf"
     versionCode="2019"
-    version="3.3.3">
-  <name>مدارس الرازي النموذجية</name>
+    version="3.3.2">
+  <name>ثانوية الرازي الاهلية للبنات</name>
 
   <description>
-        مدارس الرازي النموذجية
+        ثانوية الرازي الاهلية للبنات
     </description>
     <author href="http://arcdsc.com" email="info@arcdsc.com">
       ARC DSC        
@@ -18,7 +18,7 @@
    <content src="index.html" />
 
     <gap:config-file parent="CFBundleShortVersionString" platform="ios">
-        <string>3.3.3</string>
+        <string>3.3.2</string>
     </gap:config-file>
     <gap:platform name="ios" />
 
