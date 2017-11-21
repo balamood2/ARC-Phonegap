@@ -66356,11 +66356,11 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id": "com.arcdsc.iuc6",
-    "appname": "كلية العراق الجامعة",
-    "desktopappname": "كلية العراق الجامعة",
+    "app_id": "com.arcdsc.bq",
+    "appname": "باكلوريتي",
+    "desktopappname": "باكلوريتي",
     "versioncode": "20191",
-    "versionname": "3.3.3",
+    "versionname": "3.3.2",
     "cache_expiration_time": 3000000000,
     "default_lang": "ar",
     "languages": { "ar": "عربي", "en": "English" },
@@ -66369,8 +66369,8 @@ angular.module('mm.core')
     // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://iuc1.arcdsc.com",
+    "siteurl": "https://bq.arcdsc.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://iuc1.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://bq.arcdsc.com/privacy.pdf"
 });
