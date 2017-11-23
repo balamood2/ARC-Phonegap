@@ -22,6 +22,10 @@
     </gap:config-file>
     <gap:platform name="ios" />
 
+    <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+        <string>For uploading receipt images</string>
+    </gap:config-file>
+    
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
