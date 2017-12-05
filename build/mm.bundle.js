@@ -66357,8 +66357,8 @@ angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
    "app_id": "com.arcdsc.sm",
-    "appname": "مدرسةالسمو الاهلية",
-    "desktopappname": "مدرسةالسمو الاهلية",
+    "appname": "مدرسة السمو الاهلية",
+    "desktopappname": "مدرسة السمو الاهلية",
     "versioncode": "2019",
     "versionname": "3.3.2",
     "cache_expiration_time": 3000000000,
