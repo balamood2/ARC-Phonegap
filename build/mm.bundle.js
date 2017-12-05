@@ -66356,21 +66356,21 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-          "app_id": "com.arcdsc.ram",
-          "appname": "ثانوية الرازي الاهلية للبنين",
-          "desktopappname": "ثانوية الرازي الاهلية للبنين",
-          "versioncode": "2019",
-          "versionname": "3.3.2",
-          "cache_expiration_time": 3000000000,
-          "default_lang": "ar",
-          "languages": { "ar": "عربي", "en": "English" },
-          "wsservice": "moodle_mobile_app",
-          "wsextservice": "local_mobile",
-          // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
-          "gcmpn": "694767596569",
-          "customurlscheme": "moodlemobile",
-          "siteurl": "https://ram.arcdsc.com",
-          "skipssoconfirmation": "false",
-          "forcedefaultlanguage": "false",
-          "privacypolicy": "https://ram.arcdsc.com/privacy.pdf"
+   "app_id": "com.arcdsc.sm",
+    "appname": "مدرسة السمو الاهلية",
+    "desktopappname": "مدرسة السمو الاهلية",
+    "versioncode": "2019",
+    "versionname": "3.3.2",
+    "cache_expiration_time": 3000000000,
+    "default_lang": "ar",
+    "languages": { "ar": "عربي", "en": "English" },
+    "wsservice": "moodle_mobile_app",
+    "wsextservice": "local_mobile",
+    // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
+    "gcmpn": "694767596569",
+    "customurlscheme": "moodlemobile",
+    "siteurl": "https://sm.arcdsc.com",
+    "skipssoconfirmation": "false",
+    "forcedefaultlanguage": "false",
+    "privacypolicy": "https://sm.arcdsc.com/privacy.pdf"
 });
