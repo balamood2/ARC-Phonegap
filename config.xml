@@ -3,8 +3,8 @@
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="com.arcdsc.mh"
-    versionCode="2019"
-    version="3.3.2">
+    versionCode="20191"
+    version="3.3.3">
   <name>مدرسة المواهب</name>
 
   <description>
@@ -18,7 +18,7 @@
    <content src="index.html" />
 
     <gap:config-file parent="CFBundleShortVersionString" platform="ios">
-        <string>3.3.2</string>
+        <string>3.3.3</string>
     </gap:config-file>
     <gap:platform name="ios" />
 
