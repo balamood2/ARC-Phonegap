@@ -71103,7 +71103,7 @@ angular.module('mm.core')
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {"student": {"url": "https://bq.arcdsc.com", "username": "student", "password": "Student!2"}},
-    "gcmpn": "694767596569",
+    "gcmpn": "522299763",
     "customurlscheme": "moodlemobile",
     "siteurl": "https://bq.arcdsc.om",
     "multisitesdisplay": "select",
