@@ -71105,7 +71105,7 @@ angular.module('mm.core')
     "demo_sites": {"student": {"url": "https://bq.arcdsc.com", "username": "student", "password": "Student!2"}},
     "gcmpn": "522299763",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://bq.arcdsc.com",
+    "siteurl": "http://bq.arcdsc.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
