@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.arcdsc.bq"
-        versionCode = "20210"
+        id        = "com.arcdsc.hk"
+        versionCode = "2021"
         version   = "3.4.0">
-    <name>باكلوريتي</name>
+    <name>مدارس هلال الخصيب الاهلية</name>
 
     <description>
-        باكلوريتي
+        مدارس هلال الخصيب الاهلية
     </description>
 
     <author href="http://arcdsc.com" email="info@arcdsc.com">
@@ -129,7 +129,7 @@
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" version="1.0.1" />
 
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.9.2">
-        <param name="SENDER_ID" value="522299763" />
+        <param name="SENDER_ID" value="948759749092" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" version="4.3.0">
         <param name="URL_SCHEME" value="moodlemobile" />

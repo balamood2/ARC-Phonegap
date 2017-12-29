@@ -1,20 +1,20 @@
 {
-    "app_id" : "com.arcdsc.bq",
-    "appname": "باكلوريتي",
-    "desktopappname": "باكلوريتي",
+    "app_id" : "com.arcdsc.hk",
+    "appname": "مدارس هلال الخصيب الاهلية",
+    "desktopappname": "مدارس هلال الخصيب الاهلية",
     "versioncode" : "2021",
     "versionname" : "3.4.0",
-    "cache_expiration_time" : 30000000000,
+    "cache_expiration_time" : 300000000,
     "default_lang" : "ar",
     "languages": {"ar": "عربي",   "en": "English"},
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": "",
-    "gcmpn": "522299763",
+    "gcmpn": "948759749092",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://bq.arcdsc.com",
+    "siteurl": "http://hk.arcdsc.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://bq.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://hk.arcdsc.com/privacy.pdf"
 }
