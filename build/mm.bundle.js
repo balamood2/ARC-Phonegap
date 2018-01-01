@@ -71092,9 +71092,9 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.arcdsc.hk",
-    "appname": "مدارس هلال الخصيب الاهلية",
-    "desktopappname": "مدارس هلال الخصيب الاهلية",
+     "app_id" : "com.arcdsc.nd",
+    "appname": "مدارس الاندلس ",
+    "desktopappname": "مدارس الاندلس ",
     "versioncode" : "2021",
     "versionname" : "3.4.0",
     "cache_expiration_time" : 300000000,
@@ -71105,10 +71105,10 @@ angular.module('mm.core')
     "demo_sites": "",
     "gcmpn": "948759749092",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://hk.arcdsc.com",
+    "siteurl": "http://nd.arcdsc.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://hk.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://nd.arcdsc.com/privacy.pdf"
 }
 );
