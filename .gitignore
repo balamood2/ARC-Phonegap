@@ -9,3 +9,11 @@ res/screens/Icon
 res/Icon
 res/icons/.DS_Store
 res/icons/android/desktop.ini
+addons/.DS_Store
+addons/messages/.DS_Store
+addons/notifications/.DS_Store
+build/lang/.DS_Store
+core/components/.DS_Store
+core/components/settings/.DS_Store
+build/.DS_Store
+core/.DS_Store
