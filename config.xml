@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.arcdsc.hk"
-        versionCode = "20211"
-        version   = "3.4.1">
+        versionCode = "20212"
+        version   = "3.4.2">
     <name>مدارس هلال الخصيب الاهلية</name>
 
     <description>
@@ -126,7 +126,7 @@
     <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.3.2" />
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" version="4.0.3" />
     <gap:plugin name="cordova-universal-clipboard" source="npm" version="0.1.0" />
-    <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" version="1.0.1" />
+    <!--<gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" version="1.0.1" />-->
 
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.9.2">
         <param name="SENDER_ID" value="948759749092" />
