@@ -16,11 +16,13 @@
 // Using JS confirm function we are sure that the user get notified in a Mobile device.
 // This script should be added at the begining of the index.html and it should only use native javascript functions.
 
-var appVersion = '3.3.1 (2019)',
+var appVersion = '3.4.0 (2021)',
     reportInBackgroundName = 'mmCoreReportInBackground',
     errors = [],
     ignoredFiles = ['www/index.html#/site/mod_page', 'www/index.html#/site/mod_resource', 'www/index.html#/site/mm_course-section'],
     reportedOnDBReady = false;
+
+appVersion += ' Official app';
 
 /**
  * Check if error should be reported in background. If setting is not set, a confirm modal will be shown.
