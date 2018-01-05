@@ -96,7 +96,7 @@
         <splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
     </platform>
     <!--<gap:plugin name="cordova-plugin-camera" source="npm" version="2.4.1" />-->
-    <plugin name="cordova-plugin-camera" spec="2.4.1" />
+    <plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" version="1.4.3">
         <param name="CAMERA_USAGE_DESCRIPTION" value="We'd like to access your camera to let you take a photo"/>
         <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We'd like to access your photo library to let you pick a photo"/>
