@@ -71095,8 +71095,8 @@ angular.module('mm.core')
      "app_id" : "com.arcdsc.fr",
     "appname": "مدارس الفارابي",
     "desktopappname": "مدارس الفارابي",
-    "versioncode" : "2021",
-    "versionname" : "3.4.0",
+    "versioncode" : "2022",
+    "versionname" : "3.4.1",
     "cache_expiration_time" : 300000000,
     "default_lang" : "ar",
     "languages": {"ar": "عربي",   "en": "English"},
@@ -71105,10 +71105,10 @@ angular.module('mm.core')
     "demo_sites": "",
     "gcmpn": "948759749092",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://fr.arcdsc.com",
+    "siteurl": "https://alfarabi-schools.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://fr.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://alfarabi-schools.com/privacy.pdf"
 }
 );
