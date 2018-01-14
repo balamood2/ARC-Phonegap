@@ -71095,7 +71095,7 @@ angular.module('mm.core')
      "app_id" : "com.arcdsc.nj",
     "appname": "نور الجوادين",
     "desktopappname": "نور الجوادين",
-    "versioncode" : "2021",
+    "versioncode" : "20210",
     "versionname" : "3.4.0",
     "cache_expiration_time" : 300000000,
     "default_lang" : "ar",
