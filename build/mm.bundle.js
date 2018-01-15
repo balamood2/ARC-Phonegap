@@ -71092,7 +71092,7 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.arcdsc.za",
+     "app_id" : "com.arcdsc.za",
     "appname": "مدارس الزهراء",
     "desktopappname": "مدارس الزهراء",
     "versioncode" : "2021",
