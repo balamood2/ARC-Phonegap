@@ -48,6 +48,8 @@ $mm-input-required-asterisk-color: $red !default;
 // Item padding.
 $item-input-padding: 16px !default;
 
+$mm-progress-bar-height: 5px !default;
+
 /**
  * App Branding
  */
@@ -168,6 +170,11 @@ p.item-text-wrap {
   width: 40%;
 }
 
+.item-avatar > img:first-child {
+  text-indent: -99999px;
+  background-color: $gray-light;
+}
+
 // Media item, ideal for icons.
 .item-media {
   @extend .item-avatar;
@@ -177,6 +184,7 @@ p.item-text-wrap {
     max-width: $item-media-width;
     max-height: $item-media-height;
     border-radius: 0;
+    background-color: transparent;
   }
   p {
     margin: 0px;
@@ -445,6 +453,20 @@ button.item.item-button-right {
   &.icon-left:before,
   &.icon-right:before {
     line-height: 28px;
+  }
+}
+
+.item-icon-right .item-note .icon {
+  display: inline;
+  align-items: normal;
+  position: relative;
+  top: auto;
+  right: auto;
+  height: auto;
+  font-size: 14px;
+  &:before {
+    display: inline;
+    width: auto;
   }
 }
 
@@ -717,6 +739,13 @@ mm-navigation-bar {
   }
 }
 
+.item-icon-left, .item-icon-right {
+  &.item-icon-top .icon {
+    align-items: flex-start;
+    top: 11px;
+  }
+}
+
 // These will need item-icon-left as well.
 @mixin mm-message-item($color) {
   border-bottom: 3px solid $color !important;
@@ -951,6 +980,28 @@ mm-timer {
   }
 }
 
+.item-select.mm-full-width {
+  margin-top: ($item-input-padding / 2);
+  margin-bottom: $item-input-padding - 1;
+  border: 0;
+
+  select {
+    max-width: 100%;
+    width: 100%;
+    background: transparent;
+    text-indent: 0;
+    line-height: $font-size-base + 2;
+    border: 0;
+    position: relative;
+  }
+
+  &.select-align-left {
+    select {
+      direction: ltr;
+    }
+  }
+}
+
 .item-select .mm-select-fix {
   // Taken from .item-select select.
   position: absolute;
@@ -1035,6 +1086,53 @@ mm-multiple-select {
 .checkbox input:before, .checkbox-icon:before {
   border-radius: 0;
 }
+
+.item-radio .radio-icon {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: block;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  top: 14px;
+  right: 14px;
+  visibility: visible;
+
+  &:before {
+    border: 1px solid #ddd;
+    display: table;
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    background: white;
+    -webkit-transition: background-color 20ms ease-in-out;
+    transition: background-color 20ms ease-in-out;
+    content: ' ';
+  }
+
+  &:after {
+    @include transition(opacity .05s ease-in-out);
+    @include rotate(-45deg);
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    display: table;
+    width: ($checkbox-width / 2);
+    height: ($checkbox-width / 4) - 1;
+    border: $checkbox-check-width solid $checkbox-check-color;
+    border-top: 0;
+    border-right: 0;
+    content: ' ';
+  }
+}
+
+.item-radio input:checked + .radio-content .radio-icon:before {
+    background: $checkbox-on-bg-positive;
+    border-color: $checkbox-off-border-positive;
+}
+
 
 input[type="radio"].mm-radio {
   position: relative;
@@ -1577,22 +1675,36 @@ i, cite, em, var, address, dfn {
 progress {
   -webkit-appearance: none;
   appearance: none;
-  height: 5px;
+  height: $mm-progress-bar-height;
   margin: 15px 0;
   padding: 0;
+  display: block;
 
+  .progress-bar-fallback,
   &[value]::-webkit-progress-bar {
     background-color: $gray-light;
     border-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
   }
 
+  .progress-bar-fallback span,
   &[value]::-webkit-progress-value {
     background-color: $mm-color-light;
     border-radius: 2px;
   }
-}
 
+  .progress-bar-fallback {
+      width: 100%;
+      height: $mm-progress-bar-height;
+      display: block;
+      position: relative;
+
+      span {
+          height: $mm-progress-bar-height;
+          display: block;
+      }
+  }
+}
 
 mm-progress-bar {
   padding-right: 55px;
@@ -1686,6 +1798,27 @@ h2.invert {
 
 *[ng-click] {
   cursor: pointer;
+}
+
+::-webkit-media-controls {
+  max-width: 100%;
+}
+
+ol.list-with-style, ul.list-with-style {
+  list-style: initial;
+  padding-left: 40px;
+}
+
+.no-padding-bottom, .padding.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.text-success {
+  color: $mm-success-color;
+}
+
+.text-danger {
+  color: $mm-error-color;
 }
 
 .atto_image_preview {
@@ -1805,6 +1938,14 @@ h2.invert {
 
 .fa-ban:before {
     content: $ionicon-var-minus-circled;
+}
+
+.fa-remove:before {
+    content: $ionicon-var-close-round;
+}
+
+.fa-check:before {
+    content: $ionicon-var-checkmark-round;
 }
 /**
  * In this file we will reset ionic styles that can bother online html.
@@ -2241,6 +2382,12 @@ $doughnut-text-colour: $gray-darker;
 mm-course-list-item .item-icon-left {
   color: $black;
 }
+
+.mm-course-enrollment-img {
+  max-width: 20px;
+  max-height: 34px;
+}
+
 .mm-capture-media-modal {
     background-color: $gray-light;
 
@@ -2462,6 +2609,7 @@ mm-course-list-item .item-icon-left {
     border-radius : 50%;
     padding: 4px;
     border: 1px solid #ddd;
+    text-indent: -99999px;
   }
 }
 
@@ -2553,7 +2701,8 @@ li.mm-question-answer-correct,
 }
 
 .mm-question-answer-correct .checkbox input:disabled:checked:before,
-.mm-question-answer-correct .checkbox input:disabled:checked + .checkbox-icon:before {
+.mm-question-answer-correct .checkbox input:disabled:checked + .checkbox-icon:before,
+.mm-question-answer-correct.item-radio input:checked + .radio-content .radio-icon:before {
   background-color: $mm-question-correct-color;
   border-color: $mm-question-correct-color;
 }
@@ -2579,7 +2728,8 @@ li.mm-question-answer-incorrect,
 }
 
 .mm-question-answer-incorrect .checkbox input:disabled:checked:before,
-.mm-question-answer-incorrect .checkbox input:disabled:checked + .checkbox-icon:before {
+.mm-question-answer-incorrect .checkbox input:disabled:checked + .checkbox-icon:before,
+.mm-question-answer-incorrect.item-radio input:checked + .radio-content .radio-icon:before {
   background-color: $mm-question-incorrect-color;
   border-color: $mm-question-incorrect-color;
 }
@@ -2645,6 +2795,9 @@ li.mm-question-answer-incorrect,
   color: $mm-question-warning-color;
 }
 
+.questioncorrectnessicon {
+  font-size: 20px;
+}
 #mm-settings-languagelabel {
   color: $base-color;
 }
@@ -3765,6 +3918,20 @@ $mma-mod-wiki-subwiki-selected-background-color:   $gray-light !default;
 
   .mma-mod_wiki-subwiki-picker .item.item-selected .icon {
     font-size: 24px;
+  }
+}
+
+.mm-site_mod_workshop,
+.mm-site_mod_workshop-submission,
+.mm-site_mod_workshop-assessment {
+
+  p.mm-overriden-grade {
+    color: $mm-success-color;
+  }
+
+  p.mm-has-overriden-grade {
+    color: $mm-error-color;
+    text-decoration: line-through;
   }
 }
 
