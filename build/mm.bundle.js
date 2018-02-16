@@ -71096,7 +71096,7 @@ angular.module('mm.core')
     "appname": "مدارس الزهراء",
     "desktopappname": "مدارس الزهراء",
     "versioncode" : "20212",
-    "versionname" : "3.4.2",
+    "versionname" : "3.4.0",
     "cache_expiration_time" : 300000000,
     "default_lang" : "ar",
     "languages": {"ar": "عربي",   "en": "English"},
