@@ -71092,7 +71092,7 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-     "app_id" : "com.arcdsc.sk",
+    "app_id" : "com.arcdsc.sk",
     "appname": "مدارس الاسكندرية الاهلية",
     "desktopappname": "مدارس الاسكندرية الاهلية",
     "versioncode" : "2021",
@@ -71105,7 +71105,7 @@ angular.module('mm.core')
     "demo_sites": "",
     "gcmpn": "948759749092",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://sk.arcdsc.com",
+    "siteurl": "http://sk.arcdsc.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
