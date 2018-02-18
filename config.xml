@@ -1,31 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns="http://www.w3.org/ns/widgets" 
-    xmlns:gap="http://phonegap.com/ns/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.mh"
-    versionCode="20191"
-    version="3.3.3">
-  <name>مدرسة المواهب</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        id        = "com.arcdsc.mh"
+        versionCode = "2021"
+        version   = "3.4.0">
+    <name>مدرسة المواهب</name>
 
-  <description>
+    <description>
         مدرسة المواهب
     </description>
+
     <author href="http://arcdsc.com" email="info@arcdsc.com">
-      ARC DSC        
-  </author>
+        arcdsc.com team
+    </author>
 
-   
-   <content src="index.html" />
-
-    <gap:config-file parent="CFBundleShortVersionString" platform="ios">
-        <string>3.3.3</string>
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+        <string>3.4.0</string>
     </gap:config-file>
+
     <gap:platform name="ios" />
 
-    <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
-        <string>For uploading receipt images</string>
-    </gap:config-file>
-    
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
@@ -54,6 +49,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
@@ -62,87 +58,84 @@
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
     <preference name="iosPersistentFileLocation"        value="Compatibility" />
 
-    <icon src="icon.png" gap:role="default" />
+    <icon src="icon.png" />
     <gap:splash src="splash.png" />
-   
 
-<platform name="android">
-	<icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
-	<icon density="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
-	<icon density="hdpi" src="res/icons/android/drawable-hdpi-icon.png" />
-	<icon density="xhdpi" src="res/icons/android/drawable-xhdpi-icon.png" />
-	<icon density="xxhdpi" src="res/icons/android/drawable-xxhdpi-icon.png" />
-	<icon density="xxxhdpi" src="res/icons/android/drawable-xxxhdpi-icon.png" />
-	<splash qualifier="land-ldpi" src="res/screens/android/drawable-land-ldpi-screen.png" />
-	<splash qualifier="land-mdpi" src="res/screens/android/drawable-land-mdpi-screen.png" />
-	<splash qualifier="land-hdpi" src="res/screens/android/drawable-land-hdpi-screen.png" />
-	<splash qualifier="land-xhdpi" src="res/screens/android/drawable-land-xhdpi-screen.png" />
-	<splash qualifier="land-xxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
-	<splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />
-	<splash qualifier="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
-	<splash qualifier="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
-	<splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
-	<splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
-	<splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
-	<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
-</platform>
-<platform name="ios">
-	<icon height="57" platform="ios" src="res/icons/ios/icon.png" width="57" />
-	<icon height="114" platform="ios" src="res/icons/ios/icon@2x.png" width="114" />
-	<icon height="40" platform="ios" src="res/icons/ios/icon-40.png" width="40" />
-	<icon height="80" platform="ios" src="res/icons/ios/icon-40@2x.png" width="80" />
-	<icon height="50" platform="ios" src="res/icons/ios/icon-50.png" width="50" />
-	<icon height="100" platform="ios" src="res/icons/ios/icon-50@2x.png" width="100" />
-	<icon height="60" platform="ios" src="res/icons/ios/icon-60.png" width="60" />
-	<icon height="120" platform="ios" src="res/icons/ios/icon-60@2x.png" width="120" />
-	<icon height="180" platform="ios" src="res/icons/ios/icon-60@3x.png" width="180" />
-	<icon height="72" platform="ios" src="res/icons/ios/icon-72.png" width="72" />
-	<icon height="144" platform="ios" src="res/icons/ios/icon-72@2x.png" width="144" />
-	<icon height="76" platform="ios" src="res/icons/ios/icon-76.png" width="76" />
-	<icon height="152" platform="ios" src="res/icons/ios/icon-76@2x.png" width="152" />
-	<icon height="29" platform="ios" src="res/icons/ios/icon-small.png" width="29" />
-	<icon height="58" platform="ios" src="res/icons/ios/icon-small@2x.png" width="58" />
-	<icon height="87" platform="ios" src="res/icons/ios/icon-small@3x.png" width="87" />
-	<splash height="1136" platform="ios" src="res/screens/ios/Default-568h@2x~iphone.png" width="640" />
-	<splash height="1334" platform="ios" src="res/screens/ios/Default-667h.png" width="750" />
-	<splash height="2208" platform="ios" src="res/screens/ios/Default-736h.png" width="1242" />
-	<splash height="1242" platform="ios" src="res/screens/ios/Default-Landscape-736h.png" width="2208" />
-	<splash height="1536" platform="ios" src="res/screens/ios/Default-Landscape@2x~ipad.png" width="2048" />
-	<splash height="768" platform="ios" src="res/screens/ios/Default-Landscape~ipad.png" width="1024" />
-	<splash height="2048" platform="ios" src="res/screens/ios/Default-Portrait@2x~ipad.png" width="1536" />
-	<splash height="1024" platform="ios" src="res/screens/ios/Default-Portrait~ipad.png" width="768" />
-	<splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
-	<splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
-</platform>
+    <platform name="android">
+        <icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="res/icons/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="res/icons/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/icons/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/icons/android/drawable-xxxhdpi-icon.png" />
+        <splash density="land-ldpi" src="res/screens/android/drawable-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="res/screens/android/drawable-land-mdpi-screen.png" />
+        <splash density="land-hdpi" src="res/screens/android/drawable-land-hdpi-screen.png" />
+        <splash density="land-xhdpi" src="res/screens/android/drawable-land-xhdpi-screen.png" />
+        <splash density="land-xxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
+        <splash density="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />
+        <splash density="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
+        <splash density="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+    <platform name="ios">
+        <icon height="57" platform="ios" src="res/icons/ios/icon.png" width="57" />
+        <icon height="114" platform="ios" src="res/icons/ios/icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="res/icons/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="res/icons/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="res/icons/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="res/icons/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="res/icons/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="res/icons/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="res/icons/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="res/icons/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="res/icons/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="res/icons/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="res/icons/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="res/icons/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="res/icons/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="res/icons/ios/icon-small@3x.png" width="87" />
+        <splash height="1136" platform="ios" src="res/screens/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" platform="ios" src="res/screens/ios/Default-667h.png" width="750" />
+        <splash height="2208" platform="ios" src="res/screens/ios/Default-736h.png" width="1242" />
+        <splash height="1242" platform="ios" src="res/screens/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" platform="ios" src="res/screens/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="768" platform="ios" src="res/screens/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" platform="ios" src="res/screens/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="1024" platform="ios" src="res/screens/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
+        <splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
+    </platform>
 
-
-
-    <gap:plugin name="cordova-plugin-camera" source="npm" />
-    <gap:plugin name="cordova-plugin-media-capture" source="npm">
+    <gap:plugin name="cordova-plugin-camera" source="npm" version="2.4.1" />
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" version="1.4.3">
         <param name="CAMERA_USAGE_DESCRIPTION" value="We'd like to access your camera to let you take a photo"/>
         <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We'd like to access your photo library to let you pick a photo"/>
         <param name="MICROPHONE_USAGE_DESCRIPTION" value="We'd like to access your microphone to let you record an audio"/>
     </gap:plugin>
-    <gap:plugin name="cordova-plugin-device" source="npm" />
-    <gap:plugin name="cordova-plugin-file" source="npm" />
-    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
-    <gap:plugin name="cordova-plugin-globalization" source="npm" />
-    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-    <gap:plugin name="cordova-plugin-network-information" source="npm" />
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-    <gap:plugin name="cordova-universal-clipboard" source="npm" />
-    <!--<gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" />-->
+    <gap:plugin name="cordova-plugin-device" source="npm" version="1.1.6" />
+    <gap:plugin name="cordova-plugin-file" source="npm" version="4.3.3" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" version="1.6.3" />
+    <gap:plugin name="cordova-plugin-globalization" source="npm" version="1.0.7" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" version="1.7.1" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" version="1.3.3" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" version="2.2.3" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.3.2" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" version="4.0.3" />
+    <gap:plugin name="cordova-universal-clipboard" source="npm" version="0.1.0" />
+    <!--<gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" version="1.0.1" />-->
 
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.9.2">
-        <param name="SENDER_ID" value="694767596569" />
+        <param name="SENDER_ID" value="948759749092" />
     </gap:plugin>
-    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
+    <gap:plugin name="cordova-plugin-customurlscheme" source="npm" version="4.3.0">
         <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
-    <gap:plugin name="ionic-plugin-keyboard" source="npm" />
-    <gap:plugin name="cordova-plugin-zip" source="npm" />
+    <gap:plugin name="ionic-plugin-keyboard" source="npm" version="2.2.1" />
+    <gap:plugin name="cordova-plugin-zip" source="npm" version="3.1.0" />
     <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
@@ -294,9 +287,9 @@
                   <string>public.audio</string>
                   <string>public.mp3</string>
                   <string>public.mpeg-4-audio</string>
-                  <string>com.apple.protected-?mpeg-4-audio</string>
+                  <string>com.apple.protected-​mpeg-4-audio</string>
                   <string>public.aifc-audio</string>
-                  <string>com.apple.coreaudio-?format</string>
+                  <string>com.apple.coreaudio-​format</string>
                   <string>public.aiff-audio</string>
                 </array>
             </dict>
@@ -398,14 +391,14 @@
                   <string>public.text</string>
                   <string>public.plain-text</string>
                   <string>public.utf8-plain-text</string>
-                  <string>public.utf16-external-plain-?text</string>
+                  <string>public.utf16-external-plain-​text</string>
                   <string>public.utf16-plain-text</string>
-                  <string>com.apple.traditional-mac-?plain-text</string>
+                  <string>com.apple.traditional-mac-​plain-text</string>
                   <string>public.source-code</string>
                   <string>public.c-source</string>
                   <string>public.objective-c-source</string>
                   <string>public.c-plus-plus-source</string>
-                  <string>public.objective-c-plus-?plus-source</string>
+                  <string>public.objective-c-plus-​plus-source</string>
                   <string>public.c-header</string>
                   <string>public.c-plus-plus-header</string>
                   <string>com.sun.java-source</string>
@@ -470,7 +463,7 @@
                 <string>Alternate</string>
                 <key>LSItemContentTypes</key>
                 <array>
-                  <string>com.microsoft.waveform-?audio</string>
+                  <string>com.microsoft.waveform-​audio</string>
                 </array>
             </dict>
             <dict>
@@ -501,7 +494,7 @@
                 <string>Alternate</string>
                 <key>LSItemContentTypes</key>
                 <array>
-                  <string>com.microsoft.powerpoint.?ppt</string>
+                  <string>com.microsoft.powerpoint.​ppt</string>
                   <string>org.openxmlformats.presentationml.presentation</string>
                 </array>
             </dict>
@@ -545,6 +538,10 @@
         <dict>
             <key>NSAllowsArbitraryLoads</key><true/>
         </dict>
+    </gap:config-file>
+
+    <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+        <string>We'd like to access your photo library to let you upload a photo or image to the site.</string>
     </gap:config-file>
 
 </widget>
