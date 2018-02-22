@@ -71092,11 +71092,11 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-     "app_id" : "com.arcdsc.raf",
+     "app_id" : "com.arcdsc.ram",
     "appname": "ثانوية الرازي الاهلية للبنين",
     "desktopappname": "ثانوية الرازي الاهلية للبنين",
-    "versioncode" : "2021",
-    "versionname" : "3.4.0",
+    "versioncode" : "2022",
+    "versionname" : "3.4.1",
     "cache_expiration_time" : 300000000,
     "default_lang" : "ar",
     "languages": {"ar": "عربي",   "en": "English"},
@@ -71105,10 +71105,10 @@ angular.module('mm.core')
     "demo_sites": "",
     "gcmpn": "948759749092",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://raf.arcdsc.com",
+    "siteurl": "http://ram.arcdsc.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://raf.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://ram.arcdsc.com/privacy.pdf"
 }
 );
