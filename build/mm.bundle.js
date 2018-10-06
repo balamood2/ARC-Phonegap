@@ -71092,9 +71092,9 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.arcdsc.ah",
-    "appname": "مدارس الاحلام",
-    "desktopappname": "مدارس الاحلام",
+    "app_id" : "com.arcdsc.jn",
+    "appname": "مدارس الجنات الاهلية",
+    "desktopappname": " مدارس الجنات الاهلية",
     "versioncode" : "2021",
     "versionname" : "3.4.0",
     "cache_expiration_time" : 300000000,
@@ -71105,10 +71105,10 @@ angular.module('mm.core')
     "demo_sites": "",
     "gcmpn": "948759749092",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://ah.arcdsc.com",
+    "siteurl": "https://jn.arcdsc.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://ah.arcdsc.com/privacy.pdf"
+    "privacypolicy": "https://jn.arcdsc.com/privacy.pdf"
 }
 );
