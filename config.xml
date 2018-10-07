@@ -6,7 +6,7 @@
         versionCode = "35200"
         android-versionCode="35200"
         version   = "3.5.2">
-    <name>مدارس الادريسي النموذجية الاهلية</name>
+    <name>ad</name>
     <description>        مدارس الادريسي النموذجية الاهلية   </description>
 
     <author href="http://arcdsc.com" email="info@arcdsc.com">      ARC DSC            </author>
@@ -146,7 +146,7 @@
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='مدارس الادريسي النموذجية الاهلية']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ad']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
