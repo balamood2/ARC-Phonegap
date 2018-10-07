@@ -6,7 +6,8 @@
         versionCode = "35200"
         android-versionCode="35200"
         version   = "3.5.2">
-    <name>مدارس الادريسي النموذجية الاهلية</name>
+    <name>da</name>
+    <label>دارس الادريسي النموذجية الاهلية</label>
     <description>        مدارس الادريسي النموذجية الاهلية   </description>
 
     <author href="http://arcdsc.com" email="info@arcdsc.com">      ARC DSC            </author>
