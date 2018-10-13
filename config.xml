@@ -143,7 +143,7 @@
 	<plugin name="cordova-android-support-gradle-release" source="npm">
 		<param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
 	</plugin>
-	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Aljawahery']" mode="merge">
+	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Jennat']" mode="merge">
 		<activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true">
 		</activity>
 	</edit-config>
