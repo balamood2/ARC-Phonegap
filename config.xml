@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.ja" 
+    id="com.arcdsc.jn" 
     versionCode="35200" 
     android-versionCode="35200" 
     version="3.5.2">
 	<name>
-		Aljawahery
+		Jennat
 	</name>
 	<label>
-		دارس الجواهري الاهلية
+		مدرسة جنات
 	</label>
 	<description>
-		مدارس الجواهري الاهلية
+		مدرسة جنات
 	</description>
 	<author href="http://arcdsc.com" email="info@arcdsc.com">
 		ARC DSC
 	</author>
 	<edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
 		<string>
-			3.5.20
+			3.5.2
 		</string>
 	</edit-config>
 	<platform name="ios" />
@@ -77,15 +77,13 @@
         <splash qualifier="land-hdpi" src="res/screens/android/drawable-land-hdpi-screen.png" />
         <splash qualifier="land-xhdpi" src="res/screens/android/drawable-land-xhdpi-screen.png" />
         <splash qualifier="land-xxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
-        <splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
-        <!--<splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />-->
+       <splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />
         <splash qualifier="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
         <splash qualifier="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
         <splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
         <splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
         <splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
-        <!--<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />-->
-         <splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
+        <splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
 	</platform>
 	<platform name="ios">
 		<icon height="57" platform="ios" src="res/icons/ios/icon.png" width="57" />
