@@ -22,7 +22,7 @@
 			3.5.20
 		</string>
 	</edit-config>
-	<platform name="ios" />
+	
 	<platform name="android" />
 	<access origin="*" />
 	<access origin="tel:*" launch-external="yes" />
@@ -77,44 +77,17 @@
         <splash qualifier="land-hdpi" src="res/screens/android/drawable-land-hdpi-screen.png" />
         <splash qualifier="land-xhdpi" src="res/screens/android/drawable-land-xhdpi-screen.png" />
         <splash qualifier="land-xxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
-        <splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
-        <!--<splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />-->
+       
+        <splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />
         <splash qualifier="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
         <splash qualifier="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
         <splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
         <splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
         <splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
-        <!--<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />-->
-         <splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
+        <splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
+         
 	</platform>
-	<platform name="ios">
-		<icon height="57" platform="ios" src="res/icons/ios/icon.png" width="57" />
-		<icon height="114" platform="ios" src="res/icons/ios/icon@2x.png" width="114" />
-		<icon height="40" platform="ios" src="res/icons/ios/icon-40.png" width="40" />
-		<icon height="80" platform="ios" src="res/icons/ios/icon-40@2x.png" width="80" />
-		<icon height="50" platform="ios" src="res/icons/ios/icon-50.png" width="50" />
-		<icon height="100" platform="ios" src="res/icons/ios/icon-50@2x.png" width="100" />
-		<icon height="60" platform="ios" src="res/icons/ios/icon-60.png" width="60" />
-		<icon height="120" platform="ios" src="res/icons/ios/icon-60@2x.png" width="120" />
-		<icon height="180" platform="ios" src="res/icons/ios/icon-60@3x.png" width="180" />
-		<icon height="72" platform="ios" src="res/icons/ios/icon-72.png" width="72" />
-		<icon height="144" platform="ios" src="res/icons/ios/icon-72@2x.png" width="144" />
-		<icon height="76" platform="ios" src="res/icons/ios/icon-76.png" width="76" />
-		<icon height="152" platform="ios" src="res/icons/ios/icon-76@2x.png" width="152" />
-		<icon height="29" platform="ios" src="res/icons/ios/icon-small.png" width="29" />
-		<icon height="58" platform="ios" src="res/icons/ios/icon-small@2x.png" width="58" />
-		<icon height="87" platform="ios" src="res/icons/ios/icon-small@3x.png" width="87" />
-		<splash height="1136" platform="ios" src="res/screens/ios/Default-568h@2x~iphone.png" width="640" />
-		<splash height="1334" platform="ios" src="res/screens/ios/Default-667h.png" width="750" />
-		<splash height="2208" platform="ios" src="res/screens/ios/Default-736h.png" width="1242" />
-		<splash height="1242" platform="ios" src="res/screens/ios/Default-Landscape-736h.png" width="2208" />
-		<splash height="1536" platform="ios" src="res/screens/ios/Default-Landscape@2x~ipad.png" width="2048" />
-		<splash height="768" platform="ios" src="res/screens/ios/Default-Landscape~ipad.png" width="1024" />
-		<splash height="2048" platform="ios" src="res/screens/ios/Default-Portrait@2x~ipad.png" width="1536" />
-		<splash height="1024" platform="ios" src="res/screens/ios/Default-Portrait~ipad.png" width="768" />
-		<splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
-		<splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
-	</platform>
+	
 	<plugin name="cordova-plugin-camera" source="npm" />
 	<plugin name="cordova-plugin-media-capture" source="npm" />
 	<plugin name="cordova-plugin-device" source="npm" />
@@ -172,15 +145,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Unknown File
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -209,15 +186,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Video
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -231,15 +212,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Image
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -253,9 +238,11 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Web Archive
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
@@ -275,15 +262,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					iWork Keynote
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -303,15 +294,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					iWork Numbers
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -331,15 +326,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				</array>
 				<string>
 					iWork Pages
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -359,15 +358,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					OpenDocument Spreadsheet
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -381,15 +384,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					OpenDocument Presentation
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -403,15 +410,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					OpenDocument Text
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -425,15 +436,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Folder
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -447,15 +462,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Audio
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -487,15 +506,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					Movie
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
@@ -524,15 +547,19 @@
 				<key>
 					CFBundleTypeName
 				</key>
+				<array>
 				<string>
 					GIF image
 				</string>
+				</array>
 				<key>
 					LSHandlerRank
 				</key>
+				<array>
 				<string>
 					Alternate
 				</string>
+				</array>
 				<key>
 					LSItemContentTypes
 				</key>
