@@ -2,9 +2,9 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="com.arcdsc.ja" 
-    versionCode="35200" 
+    versionCode="35201" 
     android-versionCode="35200" 
-    version="3.5.2">
+    version="3.5.2.1">
 	<name>
 		Aljawahery
 	</name>
@@ -106,7 +106,7 @@
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	<plugin name="cordova-clipboard" source="npm" />
-	<plugin name="nl.kingsquare.cordova.background-audio" source="npm" />
+	<!--<plugin name="nl.kingsquare.cordova.background-audio" source="npm" />-->
 	<plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
 		<param name="SENDER_ID" value="948759749092" />
 	</plugin>
