@@ -77,7 +77,7 @@
 		<splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
 		<splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
 		<splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
-		<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
+		<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
 	</platform>
 	<plugin name="cordova-plugin-camera" source="npm" />
 	<plugin name="cordova-plugin-media-capture" source="npm" />
