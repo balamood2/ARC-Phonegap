@@ -71,13 +71,13 @@
 		<splash qualifier="land-hdpi" src="res/screens/android/drawable-land-hdpi-screen.png" />
 		<splash qualifier="land-xhdpi" src="res/screens/android/drawable-land-xhdpi-screen.png" />
 		<splash qualifier="land-xxhdpi" src="res/screens/android/drawable-land-xxhdpi-screen.png" />
-		<splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xhdpi-screen.png" />
+		<splash qualifier="land-xxxhdpi" src="res/screens/android/drawable-land-xxxhdpi-screen.png" />
 		<splash qualifier="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
 		<splash qualifier="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
 		<splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
 		<splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
 		<splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
-		<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
+		<splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
 	</platform>
 	<plugin name="cordova-plugin-camera" source="npm" />
 	<plugin name="cordova-plugin-media-capture" source="npm" />
