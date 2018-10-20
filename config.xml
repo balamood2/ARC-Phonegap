@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.arcdsc.ja" versionCode="35200" android-versionCode="35200" version="3.5.2">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.arcdsc.ba" versionCode="35200" android-versionCode="35200" version="3.5.2">
 	<name>
-		Aljawahery
+		Albinaa
 	</name>
 	<label>
-		دارس الجواهري الاهلية
+		مدارس البناء الاهلية
 	</label>
 	<description>
-		مدارس الجواهري الاهلية
+		مدارس البناء الاهلية
 	</description>
 	<author href="http://arcdsc.com" email="info@arcdsc.com">
 		ARC DSC
@@ -109,7 +109,7 @@
 	<plugin name="cordova-android-support-gradle-release" source="npm">
 		<param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
 	</plugin>
-	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Aljawahery']" mode="merge">
+	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Albinaa']" mode="merge">
 		<activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true">
 		</activity>
 	</edit-config>
