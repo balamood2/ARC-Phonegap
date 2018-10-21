@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.jn" 
-    versionCode="35201" 
-    version="3.5.2.1">
+    id="com.arcdsc.ba" 
+    versionCode="3520" 
+    version="3.5.2">
 	<name>
-		Jennat
+		Albinaa
 	</name>
 	<label>
-            مدرسة جنات
+            مدارس البناء الاهلية
 	</label>
 	<description>
-            مدرسة جنات
+            مدارس البناء الاهلية
 	</description>
 	<author href="http://arcdsc.com" email="info@arcdsc.com">
 		ARC DSC
 	</author>
 	<edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
 		<string>
-			3.5.20
+			3.5.2
 		</string>
 	</edit-config>
 	
@@ -123,7 +123,7 @@
 	<plugin name="cordova-android-support-gradle-release" source="npm">
 		<param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
 	</plugin>
-	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Jennat']" mode="merge">
+	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Albinaa']" mode="merge">
 		<activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true">
 		</activity>
 	</edit-config>
