@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
 	xmlns:android="http://schemas.android.com/apk/res/android" 
 	id="com.arcdsc.tf" versionCode="35200"
- 	android-versionCode="3520" version="3.5.2">
+ 	android-versionCode="3521" version="3.5.3">
 	<name>
 		Altaif
 	</name>
@@ -17,7 +17,7 @@
 	</author>
 	<edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
 		<string>
-			3.5.2
+			3.5.3
 		</string>
 	</edit-config>
 	<platform name="android" />
@@ -42,7 +42,8 @@
 	<preference name="stay-in-webview" value="false" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="prerendered-icon" value="true" />
-	<preference name="load-url-timeout" value="60000" />
+	<preference name="load-url-timeout" value="70000" />
+    <preference name="loadUrlTimeoutValue" value="700000"/>
 	<preference name="AppendUserAgent" value="MoodleMobile" />
 	<preference name="android-minSdkVersion" value="19" />
 	<preference name="android-targetSdkVersion" value="26" />
@@ -135,4 +136,9 @@
 	</edit-config>
 	<config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
 	</config-file>
+
+    <allow-navigation href="*" />
+    <content src="index.html" />
+    <content original-src="index.html" />
+
 </widget>
