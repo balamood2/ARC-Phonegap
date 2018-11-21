@@ -145,7 +145,7 @@
 		<param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
 	</plugin>
 	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Asood']" mode="merge">
-		<activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true">
+		<activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false">
 		</activity>
 	</edit-config>
 	<!-- See MOBILE-892 -->
