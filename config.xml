@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.arcdsc.ja" versionCode="35200" android-versionCode="35200" version="3.5.2">
+<widget xmlns="http://www.w3.org/ns/widgets" 
+xmlns:gap="http://phonegap.com/ns/1.0" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+id="com.arcdsc.jaw" versionCode="35201" android-versionCode="35200" version="3.5.3">
 	<name>
 		Aljawahery
 	</name>
@@ -14,7 +17,7 @@
 	</author>
 	<edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
 		<string>
-			3.5.20
+			3.5.30
 		</string>
 	</edit-config>
 	<platform name="android" />
