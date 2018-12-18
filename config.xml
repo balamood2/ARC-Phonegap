@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.arcdsc.as" 
+    id="com.arcdsc.ta" 
     versionCode="35200" 
     android-versionCode="35200" 
     version="3.5.2">
 	<name>
-		Asood
+		Tahdee
 	</name>
 	<label>
-مدارس اسود الرافدين
+ثانوية التحدي
 	</label>
 	<description>
-مدارس اسود الرافدين
+ثانوية التحدي
 	</description>
 	<author href="http://arcdsc.com" email="info@arcdsc.com">
 		ARC DSC
@@ -144,7 +144,7 @@
 	<plugin name="cordova-android-support-gradle-release" source="npm">
 		<param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
 	</plugin>
-	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Asood']" mode="merge">
+	<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Tahdee']" mode="merge">
 		<activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false">
 		</activity>
 	</edit-config>
