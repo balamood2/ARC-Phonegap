@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.arcdsc.taa"
         versionCode = "37000"
         android-versionCode="37000"
         version   = "3.7.0">
-    <name>Moodle</name>
+    <name>التعليم</name>
 
     <description>
-        Moodle official app
+        تطبيق التعليم
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://arcdsc.com" email="info@arcdsc.com">
+        Customized by ARC team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
