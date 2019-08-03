@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.arcdsc.taa"
+        id        = "com.arcdsc.im"
         versionCode = "37000"
         android-versionCode="37000"
         version   = "3.7.0">
-    <name>التعليم</name>
+    <name>مدارس الامتياز الاهلية</name>
 
     <description>
-        تطبيق التعليم
+        مدارس الامتياز الاهلية
     </description>
 
     <author href="http://arcdsc.com" email="info@arcdsc.com">
