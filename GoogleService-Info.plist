@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com</string>
+	<string>948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.948759749092-4v86rkfkv509murucl1588h08n5681av</string>
+	<string>com.googleusercontent.apps.948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCHPMql4lqz_8wPKHV73YUVGF-nhjafGec</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.arcdsc.taa</string>
+	<string>com.arcdsc.im</string>
 	<key>PROJECT_ID</key>
 	<string>fb-hk-7c29b</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:948759749092:ios:d8cf05daae74943d</string>
+	<string>1:948759749092:ios:e503d0a040a4fa06</string>
 	<key>DATABASE_URL</key>
 	<string>https://fb-hk-7c29b.firebaseio.com</string>
 </dict>
