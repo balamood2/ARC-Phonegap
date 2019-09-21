@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.arcdsc.taa"
+        id        = "com.arcdsc.im"
         versionCode = "37100"
         android-versionCode="37100"
         version   = "3.7.1">
-    <name>التعليم</name>
+    <name>مدارس الامتياز الاهلية</name>
 
     <description>
-        التعليم
+        مدارس الامتياز الاهلية
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
