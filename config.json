@@ -1,19 +1,44 @@
 {
     "app_id": "com.arcdsc.iuc6",
     "appname": "كلية العراق الجامعة",
-    "desktopappname": "كلية العراق الجامعة",
-    "versioncode": "2019",
-    "versionname": "3.3.2",
-    "cache_expiration_time": 3000000000,
+    "desktopappname": "Moodle Desktop",
+    "versioncode": 3710,
+    "versionname": "3.7.1",
+    "cache_update_frequency_usually": 420000,
+    "cache_update_frequency_often": 1200000,
+    "cache_update_frequency_sometimes": 3600000,
+    "cache_update_frequency_rarely": 43200000,
     "default_lang": "ar",
-    "languages": { "ar": "عربي", "en": "English" },
+    "languages": {
+        "ar": "عربي",
+        "en": "English",
+        "en-us": "English - United States"
+    },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    // "demo_sites": { "student": { "url": "http://school.demo.moodle.net", "username": "student", "password": "moodle" }, "teacher": { "url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle" }, "cva": { "url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student" } },
-    "gcmpn": "694767596569",
+    "demo_sites": {
+       
+    },
+    "font_sizes": [
+        62.5,
+        75.89,
+        93.75
+    ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://iuc1.arcdsc.com",
-    "skipssoconfirmation": "false",
-    "forcedefaultlanguage": "false",
-    "privacypolicy": "https://iuc1.arcdsc.com/privacy.pdf"
+    "siteurl": "https:\/\/lms.iuc.edu.iq",
+    "sitename": "",
+    "multisitesdisplay": "كلية العراق الجامعة",
+    "skipssoconfirmation": false,
+    "forcedefaultlanguage": false,
+    "privacypolicy": "https:\/\/lms.iuc.edu.iq/privacy.pdf",
+    "notificoncolor": "#f98012",
+    "statusbarbg": false,
+    "statusbarlighttext": false,
+    "statusbarbgios": "#f98012",
+    "statusbarlighttextios": true,
+    "statusbarbgandroid": "#df7310",
+    "statusbarlighttextandroid": true,
+    "statusbarbgremotetheme": "#000000",
+    "statusbarlighttextremotetheme": true,
+    "enableanalytics": false
 }
