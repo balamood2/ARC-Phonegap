@@ -1,133 +1,70 @@
 webpackJsonp([47],{
 
-/***/ 1833:
+/***/ 2042:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCourseSectionSelectorPageModule", function() { return CoreCourseSectionSelectorPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginSitesPageModuleNgFactory", function() { return CoreLoginSitesPageModuleNgFactory; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__section_selector__ = __webpack_require__(1959);
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-var CoreCourseSectionSelectorPageModule = /** @class */ (function () {
-    function CoreCourseSectionSelectorPageModule() {
-    }
-    CoreCourseSectionSelectorPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__section_selector__["a" /* CoreCourseSectionSelectorPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__section_selector__["a" /* CoreCourseSectionSelectorPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], CoreCourseSectionSelectorPageModule);
-    return CoreCourseSectionSelectorPageModule;
-}());
-
-//# sourceMappingURL=section-selector.module.js.map
-
-/***/ }),
-
-/***/ 1959:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCourseSectionSelectorPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_helper__ = __webpack_require__(21);
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sites_module__ = __webpack_require__(761);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_ionic_angular_components_action_sheet_action_sheet_component_ngfactory__ = __webpack_require__(1471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__node_modules_ionic_angular_components_alert_alert_component_ngfactory__ = __webpack_require__(1472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_ionic_angular_components_app_app_root_ngfactory__ = __webpack_require__(1473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__node_modules_ionic_angular_components_loading_loading_component_ngfactory__ = __webpack_require__(1474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__node_modules_ionic_angular_components_modal_modal_component_ngfactory__ = __webpack_require__(1475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__node_modules_ionic_angular_components_picker_picker_component_ngfactory__ = __webpack_require__(1476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__node_modules_ionic_angular_components_popover_popover_component_ngfactory__ = __webpack_require__(1477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_ionic_angular_components_select_select_popover_component_ngfactory__ = __webpack_require__(1478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__node_modules_ionic_angular_components_toast_toast_component_ngfactory__ = __webpack_require__(1479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__sites_ngfactory__ = __webpack_require__(1569);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_forms__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_loader__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_compiler__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core_src_translate_parser__ = __webpack_require__(364);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ngx_translate_core_src_missing_translation_handler__ = __webpack_require__(363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ngx_translate_core_src_translate_store__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__directives_directives_module__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_ionic_angular_module__ = __webpack_require__(712);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ngx_translate_core_index__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_ionic_angular_util_module_loader__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__sites__ = __webpack_require__(397);
 /**
- * Page that displays course section selector.
- */
-var CoreCourseSectionSelectorPage = /** @class */ (function () {
-    function CoreCourseSectionSelectorPage(navParams, courseHelper, viewCtrl) {
-        this.viewCtrl = viewCtrl;
-        this.sections = navParams.get('sections');
-        this.selected = navParams.get('selected');
-    }
-    /**
-     * Close the modal.
-     */
-    CoreCourseSectionSelectorPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
-    };
-    /**
-     * Select a section.
-     *
-     * @param {any} section Selected section object.
-     */
-    CoreCourseSectionSelectorPage.prototype.selectSection = function (section) {
-        if (section.uservisible !== false) {
-            this.viewCtrl.dismiss(section);
-        }
-    };
-    CoreCourseSectionSelectorPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-course-section-selector',template:/*ion-inline-start:"/home/travis/build/crazyserver/moodlemobile2/src/core/course/pages/section-selector/section-selector.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.course.sections\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ng-container *ngFor="let section of sections">\n        <a ion-item *ngIf="section.hasContent" text-wrap (click)="selectSection(section)" [class.core-primary-item]="selected.id == section.id" [class.item-dimmed]="section.visible === 0 || section.uservisible === false" detail-none>\n            <core-icon name="fa-folder" item-start></core-icon>\n            <h2><core-format-text [text]="section.formattedName || section.name"></core-format-text></h2>\n            <ion-badge color="secondary" *ngIf="section.visible === 0 && section.uservisible !== false">{{ \'core.course.hiddenfromstudents\' | translate }}</ion-badge>\n            <ion-badge color="secondary" *ngIf="section.availabilityinfo"><core-format-text  [text]=" section.availabilityinfo"></core-format-text></ion-badge>\n        </a>\n    </ng-container>\n</ion-content>\n'/*ion-inline-end:"/home/travis/build/crazyserver/moodlemobile2/src/core/course/pages/section-selector/section-selector.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_helper__["a" /* CoreCourseHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */]])
-    ], CoreCourseSectionSelectorPage);
-    return CoreCourseSectionSelectorPage;
-}());
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
 
-//# sourceMappingURL=section-selector.js.map
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var CoreLoginSitesPageModuleNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵcmf */](__WEBPACK_IMPORTED_MODULE_1__sites_module__["a" /* CoreLoginSitesPageModule */], [], function (_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_40" /* ɵmod */]([__WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [__WEBPACK_IMPORTED_MODULE_2__node_modules_ionic_angular_components_action_sheet_action_sheet_component_ngfactory__["a" /* ActionSheetCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_3__node_modules_ionic_angular_components_alert_alert_component_ngfactory__["a" /* AlertCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_4__node_modules_ionic_angular_components_app_app_root_ngfactory__["a" /* IonicAppNgFactory */], __WEBPACK_IMPORTED_MODULE_5__node_modules_ionic_angular_components_loading_loading_component_ngfactory__["a" /* LoadingCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_6__node_modules_ionic_angular_components_modal_modal_component_ngfactory__["a" /* ModalCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_7__node_modules_ionic_angular_components_picker_picker_component_ngfactory__["a" /* PickerCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_8__node_modules_ionic_angular_components_popover_popover_component_ngfactory__["a" /* PopoverCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_9__node_modules_ionic_angular_components_select_select_popover_component_ngfactory__["a" /* SelectPopoverNgFactory */], __WEBPACK_IMPORTED_MODULE_10__node_modules_ionic_angular_components_toast_toast_component_ngfactory__["a" /* ToastCmpNgFactory */], __WEBPACK_IMPORTED_MODULE_11__sites_ngfactory__["a" /* CoreLoginSitesPageNgFactory */]]], [3, __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ComponentFactoryResolver */]], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModuleRef */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_12__angular_common__["m" /* NgLocalization */], __WEBPACK_IMPORTED_MODULE_12__angular_common__["l" /* NgLocaleLocalization */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* LOCALE_ID */], [2, __WEBPACK_IMPORTED_MODULE_12__angular_common__["w" /* ɵa */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_13__angular_forms__["x" /* ɵi */], __WEBPACK_IMPORTED_MODULE_13__angular_forms__["x" /* ɵi */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_13__angular_forms__["d" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_13__angular_forms__["d" /* FormBuilder */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_loader__["b" /* TranslateLoader */], __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_loader__["a" /* TranslateFakeLoader */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_compiler__["a" /* TranslateCompiler */], __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_compiler__["b" /* TranslateFakeCompiler */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core_src_translate_parser__["b" /* TranslateParser */], __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core_src_translate_parser__["a" /* TranslateDefaultParser */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_17__ngx_translate_core_src_missing_translation_handler__["b" /* MissingTranslationHandler */], __WEBPACK_IMPORTED_MODULE_17__ngx_translate_core_src_missing_translation_handler__["a" /* FakeMissingTranslationHandler */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__["a" /* TranslateService */], [__WEBPACK_IMPORTED_MODULE_19__ngx_translate_core_src_translate_store__["a" /* TranslateStore */], __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_loader__["b" /* TranslateLoader */], __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_compiler__["a" /* TranslateCompiler */], __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core_src_translate_parser__["b" /* TranslateParser */], __WEBPACK_IMPORTED_MODULE_17__ngx_translate_core_src_missing_translation_handler__["b" /* MissingTranslationHandler */], __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__["b" /* USE_DEFAULT_LANG */], __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__["c" /* USE_STORE */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_20__directives_directives_module__["a" /* CoreDirectivesModule */], __WEBPACK_IMPORTED_MODULE_20__directives_directives_module__["a" /* CoreDirectivesModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_12__angular_common__["b" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_12__angular_common__["b" /* CommonModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_13__angular_forms__["v" /* ɵba */], __WEBPACK_IMPORTED_MODULE_13__angular_forms__["v" /* ɵba */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_13__angular_forms__["i" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_13__angular_forms__["i" /* FormsModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_13__angular_forms__["s" /* ReactiveFormsModule */], __WEBPACK_IMPORTED_MODULE_13__angular_forms__["s" /* ReactiveFormsModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_21_ionic_angular_module__["a" /* IonicModule */], __WEBPACK_IMPORTED_MODULE_21_ionic_angular_module__["a" /* IonicModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_21_ionic_angular_module__["b" /* IonicPageModule */], __WEBPACK_IMPORTED_MODULE_21_ionic_angular_module__["b" /* IonicPageModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_22__ngx_translate_core_index__["b" /* TranslateModule */], __WEBPACK_IMPORTED_MODULE_22__ngx_translate_core_index__["b" /* TranslateModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_1__sites_module__["a" /* CoreLoginSitesPageModule */], __WEBPACK_IMPORTED_MODULE_1__sites_module__["a" /* CoreLoginSitesPageModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](256, __WEBPACK_IMPORTED_MODULE_23_ionic_angular_util_module_loader__["a" /* LAZY_LOADED_TOKEN */], __WEBPACK_IMPORTED_MODULE_24__sites__["a" /* CoreLoginSitesPage */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](256, __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__["c" /* USE_STORE */], undefined, []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_41" /* ɵmpd */](256, __WEBPACK_IMPORTED_MODULE_18__ngx_translate_core_src_translate_service__["b" /* USE_DEFAULT_LANG */], undefined, [])]); });
+
+//# sourceMappingURL=sites.module.ngfactory.js.map
 
 /***/ })
 
