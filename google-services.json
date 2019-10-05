@@ -32,10 +32,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -68,10 +68,46 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948759749092:android:404012239342156f1ae7f1",
+        "android_client_info": {
+          "package_name": "com.arcdsc.as"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948759749092-c5jqm8t3461ann5m6entatfmrg9jtrln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4-jPK2YVG-hskSlCkIZzIjF5JRrBHRUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948759749092-c5jqm8t3461ann5m6entatfmrg9jtrln.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -104,10 +140,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -140,10 +176,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -176,10 +212,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -212,10 +248,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -248,10 +284,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -284,10 +320,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -320,10 +356,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -356,10 +392,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -392,10 +428,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -428,10 +464,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -464,10 +500,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -500,10 +536,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -536,10 +572,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -572,10 +608,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -608,10 +644,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -644,10 +680,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -680,10 +716,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -716,10 +752,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -752,10 +788,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -788,10 +824,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -824,10 +860,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -860,10 +896,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -896,10 +932,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -932,10 +968,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -968,10 +1004,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -1004,10 +1040,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -1040,10 +1076,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -1076,10 +1112,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -1112,10 +1148,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -1148,10 +1184,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
@@ -1184,10 +1220,10 @@
               "client_type": 3
             },
             {
-              "client_id": "948759749092-2rd5qm564a9i9ce2oehasuervn6klhc8.apps.googleusercontent.com",
+              "client_id": "948759749092-4v86rkfkv509murucl1588h08n5681av.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.arcdsc.im"
+                "bundle_id": "com.arcdsc.taa"
               }
             }
           ]
