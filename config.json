@@ -1,0 +1,44 @@
+{
+    "app_id": "com.arcdsc.na",
+    "appname": "مدارس النشأ الجديد",
+    "desktopappname": "Moodle Desktop",
+    "versioncode": 3710,
+    "versionname": "3.7.1",
+    "cache_update_frequency_usually": 420000,
+    "cache_update_frequency_often": 1200000,
+    "cache_update_frequency_sometimes": 3600000,
+    "cache_update_frequency_rarely": 43200000,
+    "default_lang": "ar",
+    "languages": {
+        "ar": "عربي",
+        "en": "English",
+        "en-us": "English - United States"
+    },
+    "wsservice": "moodle_mobile_app",
+    "wsextservice": "local_mobile",
+    "demo_sites": {
+       
+    },
+    "font_sizes": [
+        62.5,
+        75.89,
+        93.75
+    ],
+    "customurlscheme": "moodlemobile",
+    "siteurl": "https:\/\/na.arcdsc.com",
+    "sitename": "",
+    "multisitesdisplay": "مدارس النشأ الجديد",
+    "skipssoconfirmation": false,
+    "forcedefaultlanguage": false,
+    "privacypolicy": "https:\/\/na.arcdsc.com/privacy.pdf",
+    "notificoncolor": "#f98012",
+    "statusbarbg": false,
+    "statusbarlighttext": false,
+    "statusbarbgios": "#f98012",
+    "statusbarlighttextios": true,
+    "statusbarbgandroid": "#df7310",
+    "statusbarlighttextandroid": true,
+    "statusbarbgremotetheme": "#000000",
+    "statusbarlighttextremotetheme": true,
+    "enableanalytics": false
+}
