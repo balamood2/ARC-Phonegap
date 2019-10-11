@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>948759749092-f1t0lepj79ieisalgen34unf8e43r1uf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.948759749092-f1t0lepj79ieisalgen34unf8e43r1uf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCHPMql4lqz_8wPKHV73YUVGF-nhjafGec</string>
+	<key>GCM_SENDER_ID</key>
+	<string>948759749092</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.arcdsc.as</string>
+	<key>PROJECT_ID</key>
+	<string>fb-hk-7c29b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fb-hk-7c29b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:948759749092:ios:906939395799d2081ae7f1</string>
+	<key>DATABASE_URL</key>
+	<string>https://fb-hk-7c29b.firebaseio.com</string>
+</dict>
+</plist>
