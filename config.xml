@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.arcdsc.im"
+        id        = "com.arcdsc.nj"
         versionCode = "37100"
         android-versionCode="37100"
         version   = "3.7.1">
-    <name>مدارس الامتياز الاهلية</name>
+    <name>نور الجوادين</name>
 
     <description>
-        مدارس الامتياز الاهلية
+        نور الجوادين
     </description>
 
     <author href="http://arcdsc.com" email="info@arcdsc.com">
-        Moodle Mobile team
+        ARC Team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">

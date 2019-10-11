@@ -1,6 +1,6 @@
 {
-    "app_id": "com.arcdsc.im",
-    "appname": "مدارس الامتياز الاهلية",
+    "app_id": "com.arcdsc.nj",
+    "appname": "نور الجوادين",
     "desktopappname": "Moodle Desktop",
     "versioncode": 3710,
     "versionname": "3.7.1",
@@ -16,14 +16,21 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    "demo_sites": "",
+    "demo_sites": {
+       
+    },
+    "font_sizes": [
+        62.5,
+        75.89,
+        93.75
+    ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "https:\/\/im.arcdsc.com",
-    "sitename": "مدارس الامتياز الاهلية",
-    "multisitesdisplay": "",
+    "siteurl": "https:\/\/nj.arcdsc.com",
+    "sitename": "",
+    "multisitesdisplay": "نور الجوادين",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https:\/\/im.arcdsc.com/privacy.pdf",
+    "privacypolicy": "https:\/\/nj.arcdsc.com/privacy.pdf",
     "notificoncolor": "#f98012",
     "statusbarbg": false,
     "statusbarlighttext": false,
